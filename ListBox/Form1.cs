@@ -27,7 +27,7 @@ namespace ListBox
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void zListBox1DoListBox2_Click(object sender, EventArgs e)
         {
             while (listBox1.SelectedIndices.Count!=0)
             { 
@@ -36,7 +36,7 @@ namespace ListBox
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void zListBox2DoListBox1_Click(object sender, EventArgs e)
         {
             while (listBox2.SelectedItems.Count != 0)
             {
